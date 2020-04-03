@@ -1,0 +1,14 @@
+{
+    "name": "artem/pretty_bitrix_iblock",
+    "description": "Pretty Bitrix Iblock",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem Prozorov",
+            "email": "artem.g.prozorov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
