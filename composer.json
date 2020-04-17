@@ -10,5 +10,17 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {
+        "gamez/typed-collection": "^2.2",
+        "phpunit/phpunit": "^9.1"
+    },
+    "autoload": {
+        "files": [
+            "bootstrap.php"
+        ],
+        "psr-4": {
+            "PrettyIblock\\": "src/"
+        }
+    }
+
 }
