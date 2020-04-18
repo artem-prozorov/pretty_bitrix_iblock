@@ -12,7 +12,9 @@
     "minimum-stability": "stable",
     "require": {
         "gamez/typed-collection": "^2.2",
-        "phpunit/phpunit": "^9.1"
+        "phpunit/phpunit": "^9.1",
+        "mockery/mockery": "^1.3",
+        "illuminate/validation": "^7.6"
     },
     "autoload": {
         "files": [
@@ -21,6 +23,10 @@
         "psr-4": {
             "PrettyIblock\\": "src/"
         }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PrettyIblock\\Tests": "tests/Unit/"
+        }
     }
-
 }
