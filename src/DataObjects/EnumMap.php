@@ -1,19 +1,19 @@
 <?php
 
-namespace PrettyIblock\Properties;
+namespace PrettyIblock\DataObjects;
 
 use PrettyIblock\Base\AbstractTypedMap;
 use PrettyIblock\Base\AbstractProperty;
 
-class PropertiesMap extends AbstractTypedMap
+class EnumMap extends AbstractTypedMap
 {
-    public static string $allowedClass = AbstractProperty::class;
+    public static string $allowedClass = Enum::class;
 
     /**
      * @inheritDoc
      */
     protected function getIndex($item): string
     {
-        return $item->getCode();
+        return $item->get('ID');
     }
 }

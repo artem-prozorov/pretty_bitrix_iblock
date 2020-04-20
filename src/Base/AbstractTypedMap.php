@@ -105,6 +105,13 @@ abstract class AbstractTypedMap implements Iterator, Countable
         return $this->data[$index] ?? null;
     }
 
+    /**
+     * push to the end of the collection
+     *
+     * @access	public
+     * @param	mixed	$item	
+     * @return	void
+     */
     public function push($item)
     {
         $this->checkType($item);
@@ -116,6 +123,12 @@ abstract class AbstractTypedMap implements Iterator, Countable
         $this->data[$index] = $item;
     }
 
+    /**
+     * Returns the number of elements in the collection
+     *
+     * @access	public
+     * @return	int
+     */
     public function count(): int
     {
         return count($this->data);

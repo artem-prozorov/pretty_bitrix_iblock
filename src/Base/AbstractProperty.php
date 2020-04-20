@@ -1,6 +1,6 @@
 <?php
 
-namespace PrettyIblock\Properties;
+namespace PrettyIblock\Base;
 
 use PrettyIblock\Traits\HasValidator;
 
