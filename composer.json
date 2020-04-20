@@ -25,8 +25,11 @@
         }
     },
     "autoload-dev": {
+        "files": [
+            "tests/helpers.php"
+        ],
         "psr-4": {
-            "PrettyIblock\\Tests": "tests/Unit/"
+            "PrettyIblock\\Tests\\": "tests/Unit/"
         }
     }
 }
